@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/backlanding/css/styles.css">
+    <title>BackProyecto</title>
+</head>
+<body>
+    <h1>BACK</h1>
+    <br><br>
+    <h2>Principal page</h2>
+    <pre id="json_response"></pre> <!-- <pre> para mantener el formato del JSON -->
+    <br><hr/>
+    <br>
+    Update Principal Page<br>
+    <form id="frmUpdatePrincipal">
+        <input name="id" type="text" placeholder="Principal ID" required aria-required="true">
+        <br>
+        <input name="title" type="text" placeholder="Title" required aria-required="true">
+        <br>
+        <input name="description" type="text" placeholder="Description" required aria-required="true">
+        <br>
+        <input name="image" type="text" placeholder="Image URL" required aria-required="true">
+        <br>
+        <button type="submit">UPDATE</button>
+    </form>
+
+    <!-- UPDATE SERVICES -->
+
+    <br><br>
+    <h2>All Services</h2>
+    <pre id="json_responseS"></pre> <!-- Utiliza <pre> para mantener el formato del JSON -->
+    <br><hr/>
+    <br>
+    Update Services<br>
+    <form id="frmUpdateServiceL">
+        <input name="id" type="text" placeholder="Services ID" required aria-required="true">
+        <br>
+        <input name="title" type="text" placeholder="Title" required aria-required="true">
+        <br>
+        <input name="description" type="text" placeholder="Description" required aria-required="true">
+        <br>
+        <input name="image" type="text" placeholder="Image URL" required aria-required="true">
+        <br>
+        <button type="submit">UPDATE</button>
+    </form>
+
+    <script type="module" src="/backlanding/js/mainPrincipal.js"></script>
+    <script type="module" src="/backlanding/js/mainServicesL.js"></script>
+</body>
+</html>
